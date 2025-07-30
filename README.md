@@ -34,3 +34,11 @@ To set up the Neovim configuration on your system, you can follow the instructio
    ```
 
 4. Install dependencies (if necessary, based on your setup).
+
+## Configuration
+
+### Custom Ansible Lint Configuration
+
+A custom Ansible lint configuration can be utilized. You can place the Ansible lint configuration file at the following location: [nvim-lspconfig.lua](https://github.com/Lamphie/neovim-dotfiles/blob/04135e6ce967b82f926ddecfb141cd1311b86ac5/lua/plugins/nvim-lspconfig.lua#L237).
+
+For more details on configuring Ansible Lint, you can refer to the official documentation [here](https://ansible.readthedocs.io/projects/lint/configuring/).
