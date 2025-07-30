@@ -11,7 +11,7 @@ This repository contains my personal configuration for Neovim, providing a custo
 
 ## Installation
 
-To set up the Neovim configuration on your system, you can follow the instructions below or use the provided Ansible playbook.
+To set up the Neovim configuration on your system, you can follow the instructions below.
 
 ### Manual Installation
 
