@@ -60,3 +60,13 @@ vim.opt.expandtab = true
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
+
+-- Ansible/Yaml extension
+vim.filetype.add({
+  extension = {
+    yml = "yaml.ansible",
+  },
+  filename = {
+    [".gitlab-ci.yml"] = "yaml",
+  },
+})
