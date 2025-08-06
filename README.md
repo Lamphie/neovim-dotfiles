@@ -36,12 +36,12 @@ To set up the Neovim configuration on your system, you can follow the instructio
    - git
    - unzip
    - npm
-   - terraform or opentofu (optional)
+   - terraform or opentofu (both optional)
 
    Both `unzip` and `npm` are mainly needed by Mason to install the LSP.
-   Use your distribution package manager. In my case, I will be using pacman.
-
    For terraform/opentofu, it will be use by [conform](https://github.com/Lamphie/neovim-dotfiles/blob/56afc790d8447126ad285a42441e4a7a7db91e8f/lua/plugins/conform.lua#L52) to autoformat tf file.
+
+   Use your distribution package manager. In my case, I will be using pacman.
 
    ```bash
    sudo pacman -S neovim git unzip npm
