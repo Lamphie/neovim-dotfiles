@@ -49,6 +49,9 @@ return {
         lualine_z = { "location" },
       }
       require("lualine").setup({
+        options = {
+          theme = require("lualine.themes.kanagawa-paper-ink"),
+        },
         sections = sections_config,
       })
     end,

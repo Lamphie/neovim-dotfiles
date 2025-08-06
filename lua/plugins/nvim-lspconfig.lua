@@ -249,12 +249,8 @@ return {
               runtime = { version = "LuaJIT" },
               workspace = {
                 checkThirdParty = false,
-                library = {
-                  "${3rd}/luv/library",
-                  unpack(vim.api.nvim_get_runtime_file("", true)),
-                },
               },
-              diagnostics = { disable = { "missing-fields" } },
+              diagnostics = { globals = { "vim" }, disable = { "missing-fields" } },
               format = {
                 enable = false,
               },
@@ -266,7 +262,6 @@ return {
         tailwindcss = {},
         dockerls = {},
         sqlls = {},
-        gopls = {},
         terraformls = {},
         bashls = {
           filetypes = { "sh", "zsh" },

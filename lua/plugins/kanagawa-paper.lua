@@ -8,14 +8,14 @@ return {
   -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
   -- Add kanagawa-paper colorscheme.
   {
-    "sho-87/kanagawa-paper.nvim",
+    "thesimonho/kanagawa-paper.nvim",
     lazy = true,
     priority = 1000, -- Make sure to load this before all the other start plugins.
     -- Load the colorscheme here.
     -- Like many other themes, this one has different styles, and you could load
     -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
     init = function()
-      vim.cmd.colorscheme("kanagawa-paper")
+      vim.cmd.colorscheme("kanagawa-paper-ink")
     end,
   },
 }
